@@ -68,6 +68,59 @@ Graphs
 
 ![image](https://github.com/user-attachments/assets/c6f1c7d7-887e-4882-ae6a-6e48442a27b4)
 
+INFERENCE
+
+a)we can vary id by changing aspect ratio.if channel length of the mosfet reduced then short channel effect play imp role.
+
+b)due to phase sift in cs amplifier the output is inverted 
+
+
+
+REPLACE RD WITH MOSFET
+
+Length and width of the pmos and nmos are 180nm and 0.2um.
+
+to find vb , vgs<vth , vg-vs<vth
+
+from tsmc lib , vth = -0.3906v
+
+vs=1.8v
+
+vg<1.4094v
+
+vg should be less than 1.4 , assuming vb as 1.25v
+
+circuit diagram
+
+![image](https://github.com/user-attachments/assets/e4791b32-bf8c-477d-9ff2-410734482fdb)
+
+dc opt point
+
+![image](https://github.com/user-attachments/assets/ea57971e-2652-4a8e-b572-19609517371e)
+
+mosfet still working in saturation region.
+
+TRANSIENT ANALYSIS 
+
+dc offset value has 0.9v , amplitude as 50mv and 1k frequency , stop time has 10ms
+
+![WhatsApp Image 2025-02-17 at 22 32 41](https://github.com/user-attachments/assets/28fb2540-4964-4807-9772-0d89909ebf49)
+
+gain=(1.43-1.31/100mv)= 1.2
+
+AC ANALYSIS
+
+![image](https://github.com/user-attachments/assets/bf5ecf59-97ac-443a-84a6-af0b0435da45)
+
+INFERENCE
+
+ CKT 1 resistor gives well balanced gain and bandwidth.CKT 2 high gain low bandwidth.choice of load plays role in finding performance of the 
+
+ ckt components.this visualise how gain, bandwidth changes has ckt changes
+
+
+
+
 
 
 
