@@ -3,7 +3,8 @@ EXPERIMENT 1
 
 q) in the given below circuit find the DC operating point,gain using transient analysis and AC analysis for different values of RD and W/l ratio .
 
- ![image](https://github.com/user-attachments/assets/b3ed8c47-2c2e-458d-9982-48341fbe9270)
+ ![image](https://github.com/user-attachments/assets/e24d01dd-3817-4812-8027-e1ef4ba223b1)
+
 Aim:To find dc opt point, gain using transient analysis and AC analysis .
 Components: resistor, MOSFET, DC power supply.
 Procedure:
@@ -23,11 +24,13 @@ To match id value we need to set the w/l value.
 
 we obtained w/l ratio 490/300.
 
-![Screenshot (229)](https://github.com/user-attachments/assets/25073f85-82a5-46da-867a-c4296c5d1e11)
+![image](https://github.com/user-attachments/assets/ad7cccc9-f319-4c8d-9959-6404d166132f)
 
-The q point obtained is (1.74v,52uA).
 
-![image](https://github.com/user-attachments/assets/cdbf9b6b-534b-439e-97e4-ef3d7220eea5)
+The q point obtained is (1.74v,56uA).
+
+![image](https://github.com/user-attachments/assets/967d9c7d-c88a-48ad-b364-f7132056c87c)
+
 
 Transient analysis 
 
@@ -46,6 +49,7 @@ Gain=vout/vin
 vout=1.79
 
 vin=900mv
+
 Av=2 (approximately)
 
 Ac analysis 
@@ -63,6 +67,8 @@ AC analysis behaviour
 Graphs
 
 ![image](https://github.com/user-attachments/assets/c6f1c7d7-887e-4882-ae6a-6e48442a27b4)
+
+
 
 
 
