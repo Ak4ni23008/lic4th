@@ -22,9 +22,6 @@ ID=55uA
 
 To match id value we need to set the w/l value.
 
-we obtained w/l ratio 490/300.
-
-![image](https://github.com/user-attachments/assets/ad7cccc9-f319-4c8d-9959-6404d166132f)
 
 
 The q point obtained is (1.74v,56uA).
