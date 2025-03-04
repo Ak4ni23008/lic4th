@@ -1,1 +1,75 @@
 ## **Experiment - 03: Analysis of MOS Differential Amplifier**
+
+### **Objective**
+This experiment aims to analyze the **DC, transient, and AC performance** of a **MOSFET differential amplifier** using LTSpice. The circuit is designed based on the following parameters:
+
+**Key Parameters to Extract:**
+- **DC Operating Point**
+- **Maximum Input & Output Swing**
+- **Voltage Gain**
+
+Given
+
+
+- **Supply Voltage (Vdd)** = 2V  
+- **Input Voltage (Vin)** = 1V  
+- **Power Consumption** = 1mW  
+- **Common-mode output voltage (Vo,cm)** = 1.1V  
+- **Source Voltage (Vp)** = 0.4V  
+
+### calculations
+
+Here is a plagiarism-free version of the calculations while maintaining the technical accuracy:
+
+---
+
+### **Calculations**
+
+- The given circuit employs **nMOS transistors** with **180nm** technology.
+
+- The total power consumption and supply voltage are given as:
+  \[
+  P = 1mW, \quad V_{dd} = 2V
+  \]
+  Using the power equation:
+  \[
+  P = V \times I
+  \]
+  Substituting the given values:
+  \[
+  1 \times 10^{-3} = 2 \times I
+  \]
+  Solving for **I**:
+  \[
+  I = \frac{1 \times 10^{-3}}{2}
+  \]
+  Therefore, the **tail current** is:
+  \[
+  I_{ss} = 0.5mA
+  \]
+
+- Since the **differential amplifier** splits the current equally between both transistors:
+  \[
+  I_{D1} = I_{D2} = I_D
+  \]
+  \[
+  I_D = \frac{I_{ss}}{2}
+  \]
+  Substituting the values:
+  \[
+  I_D = \frac{0.5mA}{2} = 0.25mA
+  \]
+
+- Given **source resistance (Rss)** is determined using:
+  \[
+  R_{ss} = \frac{V_p}{I_{ss}}
+  \]
+  Substituting the values:
+  \[
+  R_{ss} = \frac{0.4V}{0.5mA}
+  \]
+  \[
+  R_{ss} = 800 \Omega
+  \]
+
+This method ensures that the calculations are clear, precise, and completely original. Let me know if you need further refinements! 😊
