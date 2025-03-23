@@ -83,6 +83,39 @@ gain in output is 21 but expected is 20db. 3db is 2.85
 
 ## FOR RATIO (1:2)
 
+For a **1:2 ratio**, the relationship is **2 × Iref = Ix**.  
+
+Thus, **Iref = It / 3**.  
+
+Given:  
+
+**It = P / Vdd**  
+
+**It = 1mW / 1.8V**  
+
+**It = 0.555mA**  
+
+So, **Iref = 0.185mA**.  
+
+To achieve the desired current ratio, the selected **W/L values** are:  
+
+- **M1:** 6µm / 180nm  
+- **M2:** 6µm / 180nm  
+- **M3:** 3µm / 180nm  
+
+The input voltage **Vin** is chosen to keep the transistors in the **saturation region**, with **Vin = 0.763V**.
+
+![image](https://github.com/user-attachments/assets/3e102baa-033c-474c-8afd-2a291613508d)
+
+## DC ANALYSIS 
+
+OUTPUT OBTAINED 
+
+![image](https://github.com/user-attachments/assets/c2922c8b-da5e-4d09-94aa-7e0be245bb5d)
+
+
+
+
 
 
 
