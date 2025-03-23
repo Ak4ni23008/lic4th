@@ -148,6 +148,14 @@ The experiment successfully designed and analyzed a **current mirror circuit** f
 
 Design the differential amplifier using the same design specification as Experiment-3. Perform DC analysis,trasient and AC analysis.
 
+Given
+
+Supply Voltage (Vdd) = 2V
+Input Voltage (Vin) = 1V
+Power Consumption = 1mW
+Common-mode output voltage (Vo,cm) = 1.1V
+Source Voltage (Vp) = 0.4V
+
 ![image](https://github.com/user-attachments/assets/132666b9-d427-4ce6-b464-611a8cd4921d)
 
 ## DC ANALYSIS 
@@ -172,6 +180,21 @@ Design the differential amplifier using the same design specification as Experim
 2. In the **AC Analysis** tab, set **Type of Sweep** to **Decade**.  
 3. Enter the **number of points per decade** (e.g., 20).  
 4. Set the **frequency range** from **0.1Hz to 1THz**.
+
+![WhatsApp Image 2025-03-23 at 22 30 00](https://github.com/user-attachments/assets/bff73bfe-1a36-458b-9513-9a6ce9748aec)
+
+## INFERENCE 
+
+### **Inference**  
+- **DC Analysis**: Biasing is correct, with \( V_{out,cm} \approx 1.1V \), ensuring proper differential pair operation.  
+- **Transient Analysis**: The amplifier correctly amplifies the input sine wave without distortion.  
+- **AC Analysis**: Gain is high in the mid-band, with expected roll-off at higher frequencies.  
+- **Conclusion**: The differential amplifier meets design specs and operates as expected.
+
+
+
+
+
 
 
 
