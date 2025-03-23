@@ -138,6 +138,11 @@ obtained gain 24.6db but expected 21db and 3db is 1.404hz .
 ![image](https://github.com/user-attachments/assets/0ff66afe-1bea-4c79-83d2-27195f6b1704)
 
 
+# 2nd Question 
+
+
+
+
 
 
 
