@@ -146,6 +146,39 @@ The experiment successfully designed and analyzed a **current mirror circuit** f
 
 # 2nd Question 
 
+Design the differential amplifier using the same design specification as Experiment-3. Perform DC analysis,trasient and AC analysis.
+
+![image](https://github.com/user-attachments/assets/132666b9-d427-4ce6-b464-611a8cd4921d)
+
+## DC ANALYSIS 
+
+![image](https://github.com/user-attachments/assets/0d14ef5d-ce0a-4e7f-bb6f-8e5537c1fab7)
+
+## TRANSIENT ANALYSIS 
+
+### **Steps for Transient Analysis:**  
+
+1. USE **AC signal**.  
+2. Use **SINE(0.8, 50mV, 1kHz)** as the signal source.  
+3. Go to **"Simulate" > "Edit Simulation Cmd" > "Transient"**.  
+4. Set **Stop Time** to **10ms**.  
+5. Run the simulation
+
+![image](https://github.com/user-attachments/assets/26f169bc-9876-4438-9b38-1cfa1fd12237)
+
+## AC ANALYSIS   
+
+1. Open the **Simulation** tab and select **AC Analysis**.  
+2. In the **AC Analysis** tab, set **Type of Sweep** to **Decade**.  
+3. Enter the **number of points per decade** (e.g., 20).  
+4. Set the **frequency range** from **0.1Hz to 1THz**.
+
+
+
+
+
+
+
 
 
 
