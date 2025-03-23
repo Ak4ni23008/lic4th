@@ -137,6 +137,12 @@ obtained gain 24.6db but expected 21db and 3db is 1.404hz .
 
 ![image](https://github.com/user-attachments/assets/0ff66afe-1bea-4c79-83d2-27195f6b1704)
 
+## 1st Question inference
+
+### **Inference**  
+
+The experiment successfully designed and analyzed a **current mirror circuit** for 1:1 and 1:2 current ratios. DC analysis confirmed proper transistor biasing, while transient analysis showed stable operation. AC analysis revealed slight gain deviations (**21 dB vs. 20 dB** for 1:1 and **24.6 dB vs. 21 dB** for 1:2), likely due to device mismatches. Channel length variations impacted mirroring accuracy and bandwidth. Overall, the experiment validated theoretical predictions, emphasizing the importance of **W/L selection, biasing, and frequency response** in current mirror design.
+
 
 # 2nd Question 
 
