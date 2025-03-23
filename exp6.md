@@ -113,6 +113,37 @@ OUTPUT OBTAINED
 
 ![image](https://github.com/user-attachments/assets/c2922c8b-da5e-4d09-94aa-7e0be245bb5d)
 
+## TRANSIENT ANALYSIS
+
+1. **AC signal**.  
+2. Define the signal using **SINE(0.763V, 50mV, 1kHz)**.  
+3. Navigate to **"Simulate" > "Edit Simulation Cmd" > "Transient"**. Configure the **Stop Time** to **10ms**.
+
+![image](https://github.com/user-attachments/assets/c33b00ec-a229-4438-92c9-780ad1f21739)
+
+## AC ANALYSIS 
+
+![image](https://github.com/user-attachments/assets/2418e163-e878-4e70-8aa0-2a3a1c2af84b)
+
+  
+1. choose **AC Analysis**.  
+2. **Type of Sweep** to **Decade**.  
+3. Specify **20 points per decade** .
+4. **frequency range** from **0.1Hz to 1THz**.
+
+![image](https://github.com/user-attachments/assets/e913670f-cb6a-4c9f-a14a-f10f429f5326)
+
+obtained gain 24.6db but expected 21db and 3db is 1.404hz .
+
+![image](https://github.com/user-attachments/assets/0ff66afe-1bea-4c79-83d2-27195f6b1704)
+
+
+
+
+
+
+
+
 
 
 
