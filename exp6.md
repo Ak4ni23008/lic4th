@@ -4,10 +4,9 @@
 
 ## PART A
 
-![image](https://github.com/user-attachments/assets/53515a58-83de-47aa-a7f1-b057e3f370fb)
+![image](https://github.com/user-attachments/assets/efbf9c25-9402-4c19-b28b-53f7f284ae52)
 
-
-### **Part A: Current Mirror Design & Analysis**  
+###  **Current Mirror Design & Analysis**  
 
 1) **Design for Av ≤ -10V/V**  
    - **Given:** Vdd = 1.8V, P ≤ 1mW  
@@ -80,6 +79,8 @@ Therefore, Iref = 0.2778mA
 gain in output is 21 but expected is 20db. 3db is 2.85
 
 ![image](https://github.com/user-attachments/assets/bffb9181-af6a-4177-ac89-fbee86eb917d)
+
+# PART B
 
 ## FOR RATIO (1:2)
 
